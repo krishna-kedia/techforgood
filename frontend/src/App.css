@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  max-width: 100%;
+}
+
+:root {
+  --heading-font: 1.6rem;
+  --heading-font-small: 1.3rem;
+  --subheading-font: 1.1rem;
+  --subheading-font-small: 0.8rem;
+  --profile-pic: 5.7rem;
+  --profile-pic-small: 4rem;
+  --font-style: 'Montserrat', sans-serif;
+  --icon-size: 1.2rem;
+  --icon-size-small: 1.2rem;
+}
+
+/* ENACTUS ORANGE : background-color: #f8971d; */
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.377);
+  box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+
+  /* background-color: transparent; */
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+  background-color: transparent;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* padding: 2px; */
+}
